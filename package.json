@@ -1,0 +1,33 @@
+{
+  "name": "my-react-typescript-starter",
+  "version": "1.0.0",
+  "description": "A starter for react, typescript with webpack (no babel).",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadrajabraza/react-typescript-webpack-starter.git"
+  },
+  "author": "Muhammad Rajab Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadrajabraza/react-typescript-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/mohammadrajabraza/react-typescript-webpack-starter#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
